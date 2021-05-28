@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&family=Rochester&display=swap');
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+}
+/*
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rochester', cursive;
+}*/
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+
+
+
+/*defult css */
+.wrapper{
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-position-x:20%;
+    background-position-y:1%;
+}
+.wrap{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+/* end defult wrapper*/
+
+
+
+h2{
+    font-size: 50px;
+}
+
+
+
+
+/* MOBILE MENU */
+
+.mobile-menu img{
+    position: absolute;
+    right: 10%;
+    width: 20px;
+    height: 20px;
+}
+.mobile-menu img:hover{
+    opacity: 20%;
+}
+
+
+
+.mobile-menu{
+    background-color: black;
+    padding: 50px;
+    width:100%;
+    min-height:100%;
+    position:fixed;
+    top: 0;
+    left:-100%;
+    z-index: 1000;
+    transition: 1s ease-out;
+}
+
+.mobile-menu ul{
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.mobile-menu ul li{
+    list-style-type: none;
+    padding:20px;
+
+
+}
+.mobile-menu ul li a{
+    color: #FFCC33;
+    text-decoration: none;
+    
+}
+
+.mobile-menu ul li a:hover{
+    border-bottom: 3px solid #EB5757;
+    transition:1s ease-in-out;
+}
+
+
+
+
+
+
+
+/*close MOBILE MENU */
+
+
+
+
+/* WEBSITE START*/
+
+
+.nav{
+
+    max-width:95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+.nav .openNav:hover{
+    opacity: 50%;
+}
+.hero{
+    display: flex;
+    justify-content:space-between;
+}
+
+.ttl{
+    font-family:'Rochester', cursive;
+    font-size: 20px;
+}
+.hero h1{
+    font-size: 70px;
+
+}
+.hero p{
+    font-size: 20px;
+}
+.ux-d{
+    font-family: roboto;
+    font-size: 60px;
+    font-weight: lighter;
+    letter-spacing:12px;
+}
+.hero-button{
+    width: 170px;
+    height: 50px;
+    background-color:#FFCC33;
+    border: none;
+    padding:2%;
+    margin-top: 20px;
+    font-size:20px;
+    border-radius: 50px;
+}
+
+
+/*portfolio*/   
+
+.p1 a{
+    text-decoration: none;
+}
+.p1 a:hover{
+    background-color:#FFCC33;
+}
+
+
+
+
+
+
+
+.btn{
+    margin-left:25%;
+}
+
+section .pp{
+    width:342px;
+    height: 342px;
+}
+.flex-right{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+section .ppp{
+    display: flex;
+    justify-content: space-between;
+}
+section img{
+    width:342x;
+    height:342px;
+}
+.explore-btn{
+    display: flex;
+    justify-content: center;
+
+}
+.explore{
+    width:360px;
+    height: 60px;
+    padding:10px;
+    background-color:#FFCC33;
+    border: none;
+    border-radius: 50px;
+    margin-top:20px;
+    font-size: 20px;
+}
+
+
+
+
+
+.skill{
+}
+.skill  .right-a{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+.skill .right-a .box{
+    width: 248px;
+    height: 234px;
+    background-color:#F2994A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding:2px;
+}
+.skill .right-a .UI{
+    background-color:#EB5757;
+    margin-top:10%;
+}
+.skill .right-a .brand-d{
+    background-color: #EB5757;
+    margin-top:0;
+}
+
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .Figma {width: 95%; background-color: #04AA6D;}
+  .XD {width: 95%; background-color: #2196F3;}
+  .Photoshop {width: 95%; background-color: #f44336;}
+  .Illustrator {width: 90%; background-color: #808080;}
+  .Sketch{width: 75%; background-color: #04AA6D;}
+
+
+
+
+
+
+
+
+
+/*contact codin is going here */
+
+.Contact{
+    max-width: 660px;
+    margin:0 auto;
+    height:160px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 20px 0 rgba(0, 0, 0, 0.02);
+}
+.Contact h2,span{
+    color: #FFCC33;
+}
+.Contact p{
+    font-size:15px;
+}
+.Contact .mail{
+    font-size: 25px;
+    font-weight:100;
+    margin-top: 5px;
+}
+
+
+
+/*footer code here... */
+
+ .footer{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 20px;
+}
+ .footer ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+
+}
+
+ .footer ul li{
+    list-style-type: none;
+    
+}
+
+ .footer ul a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid #EB5757;
+}
+.footer ul a:hover{
+    border-bottom: none;
+    border-top: 3px solid #FFCC33;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    padding: 5px;
+    font-size: 20px;
+}

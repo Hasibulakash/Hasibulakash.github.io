@@ -1,0 +1,61 @@
+@media screen and (max-width: 500px) {
+
+        .hero{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .hero .right img{
+            max-width: 100%;
+        }
+
+        .hero .left h1{
+            font-size:40px;
+        }
+        .hero .left .ux-d{
+            font-size: 30px;
+        }
+        .hero .left p{
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+
+       section .ppp{
+            display: flex;
+            flex-direction: column;
+        }
+        section .ppp .pp{
+            width: 100%;
+            overflow: hidden;
+            border: 2px solid #000033;
+            margin-top: 5px;
+
+        }
+
+
+
+
+        .skill .right-a{
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+        .skill .right-a .box{
+            margin: 0 auto;
+
+        }
+
+
+
+        .footer{
+            display: flex;
+            flex-direction: column;
+        }
+        .footer .one{
+            display: none;
+        }
+        .footer .two{
+            margin: 0 auto;
+        }
+
+  }
